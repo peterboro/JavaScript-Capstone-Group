@@ -1,7 +1,6 @@
 const showMovies = (data) => {
   data.forEach((m) => {
-    const movieEl = document.querySelector('.movie-info');
-    console.log(m);
+    const movieEl = document.querySelector('.movie-info'); 
     const html = `
       <div class="movie">
         <img src='${m.image.medium}' alt="image">
