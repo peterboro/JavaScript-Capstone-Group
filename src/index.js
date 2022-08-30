@@ -1,9 +1,12 @@
-//import './style.css';
+// import './style.css';
+
+import getMovies from './modules/getMovies.js';
 
 const MAIN_URL = 'https://api.tvmaze.com/shows';
 
 // const main = document.getElementById('main');
 
+<<<<<<< HEAD
 
 
 // const getMovies = (url) => {
@@ -74,3 +77,6 @@ const MAIN_URL = 'https://api.tvmaze.com/shows';
 // 	.catch(err => console.error(err));
 
 
+=======
+getMovies(MAIN_URL);
+>>>>>>> a3c1ae37fc935c532e77bf434d8c8de8c8eaddf0
