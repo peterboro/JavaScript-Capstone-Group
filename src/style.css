@@ -52,17 +52,17 @@ header{
 .movie {
   margin: 1rem;
   background-color: var(--primary-color);
-  width: 250px;
-  height: 400px;
+  width: 85%;
+  height: 90%;
   border-radius: 7px;
 }
 
-.movie div {
+.movie .movie-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:.5rem;
+  padding:0rem .5rem; 
 }
 
 .movie-info h3{
@@ -71,9 +71,27 @@ header{
   font-size: 90%;
 }
 
-.movie div i{
+.movie .movie-header i{
   margin-top: -1.2rem;
   color: rgba(197, 0, 0, 0.411); 
+  cursor: pointer;
+}
+.btns {
+  display: flex;
+  justify-content:space-between;
+  width: 100%; 
+  z-index: 10;
+  padding-bottom: 1rem; 
+  padding: 0 .5rem;
+}
+
+.movie  button {
+  background-color: rgba(105, 92, 92, 0.74);
+  border: none; 
+  padding: .2rem .5rem;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 footer {
