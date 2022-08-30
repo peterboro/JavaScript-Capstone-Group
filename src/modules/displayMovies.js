@@ -1,8 +1,8 @@
 const showMovies = (data) => {
-    data.forEach(m => {
-      const movieEl = document.querySelector('.movie-info'); 
-      console.log(m)
-      const html = `
+  data.forEach((m) => {
+    const movieEl = document.querySelector('.movie-info');
+    console.log(m);
+    const html = `
       <div class="movie">
         <img src='${m.image.medium}' alt="image">
         <div class="movie-header">
@@ -15,7 +15,7 @@ const showMovies = (data) => {
         </div>       
       </div> 
       `;
-      movieEl.insertAdjacentHTML('afterbegin',html)
-    });
-}
+    movieEl.insertAdjacentHTML('afterbegin', html);
+  });
+};
 export default showMovies;
