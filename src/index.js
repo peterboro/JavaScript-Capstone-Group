@@ -1,4 +1,4 @@
-import './style.css';
+//import './style.css';
 
 const MAIN_URL = 'https://api.tvmaze.com/shows';
 
@@ -60,6 +60,7 @@ const MAIN_URL = 'https://api.tvmaze.com/shows';
   
 
 // const options = {
+
 // 	method: 'GET',
 // 	headers: {
 // 		'X-RapidAPI-Key': '05439d0610msh1dc21c2d2a44d53p1a915ajsna66f003dbe91',

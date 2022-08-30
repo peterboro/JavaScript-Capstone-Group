@@ -53,3 +53,11 @@ header{
 .movie-info h3{
   margin-top: 0;
 }
+
+footer {
+  width: 100%;
+  padding: .1rem 1rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+}
