@@ -1,4 +1,4 @@
-import './style.css';
+//import './style.css';
 
 const MAIN_URL = ' https://api.tvmaze.com/shows ';
 
@@ -20,13 +20,11 @@ getMovies(MAIN_URL);
 
 const showMovies = (data) => {
   data.forEach(movie => {
-    const movieEl = document.createElement('div');
-    movieEl.classList.add('movie');
+    const movieEl = document.querySelector('.movie-info'); 
     movieEl.innerHTML = `
     <img src="" alt="image">
-
     <div class="movie-info">
-      <h3> Movie Title</h3>
+      <h3> Movie Titlees</h3>
     </div>
     `
     
