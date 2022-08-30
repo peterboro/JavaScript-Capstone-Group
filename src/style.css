@@ -1,50 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #22254b;
   --secondary-color: #373b69;
 }
 
-body{
+body {
   background-color: var(--primary-color);
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-header{
+header {
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
   background-color: var(--secondary-color);
 }
 
-.main{
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.movies { 
-  border-radius: 0.2px 4px 5px rgba(0,0,0,0.1);
+.movies {
+  border-radius: 0.2px 4px 5px;
   background-color: var(--secondary-color);
-  position: relative; 
+  position: relative;
   margin: 1rem;
 }
 
-.movie img{
+.movie img {
   width: 100%;
-  height: 80%; 
+  height: 80%;
   border-radius: 7px 7px 0 0;
 }
 
-.movie-info{ 
+.movie-info {
   width: 100%;
-  display: grid; 
-  grid-template-columns: repeat(4,1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 5rem;
   letter-spacing: 0.5px;
 }
@@ -62,33 +62,33 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0rem .5rem; 
+  padding: 0 0.5rem;
 }
 
-.movie-info h3{
+.movie-info h3 {
   margin-top: 0;
   color: #fff;
   font-size: 90%;
 }
 
-.movie .movie-header i{
+.movie .movie-header i {
   margin-top: -1.2rem;
-  color: rgba(197, 0, 0, 0.411); 
+  color: rgba(197, 0, 0, 0.411);
   cursor: pointer;
 }
+
 .btns {
   display: flex;
-  justify-content:space-between;
-  width: 100%; 
+  justify-content: space-between;
+  width: 100%;
   z-index: 10;
-  padding-bottom: 1rem; 
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
-.movie  button {
+.movie button {
   background-color: rgba(105, 92, 92, 0.74);
-  border: none; 
-  padding: .2rem .5rem;
+  border: none;
+  padding: 0.2rem 0.5rem;
   color: #fff;
   border-radius: 7px;
   cursor: pointer;
@@ -97,10 +97,10 @@ header{
 footer {
   width: 100%;
   font-size: 80%;
-  padding: .1rem 1rem;
+  padding: 0.1rem 1rem;
   background-color: var(--secondary-color);
   color: #fff;
-  text-align: center; 
+  text-align: center;
 }
 
 footer span {
@@ -108,22 +108,22 @@ footer span {
 }
 
 @media (max-width: 620px) {
-  .movies { 
+  .movies {
     width: 100%;
-    border-radius: 0.2px 4px 5px rgba(0,0,0,0.1);
-    background-color: var(--secondary-color); 
+    border-radius: 0.2px 4px 5px;
+    background-color: var(--secondary-color);
     padding: 0;
     margin: 0;
   }
 
-  .movie-info{   
+  .movie-info {
     margin: 1rem;
     padding: 0;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     letter-spacing: 0.5px;
-    position: relative;  
+    position: relative;
   }
 
   .movie {
