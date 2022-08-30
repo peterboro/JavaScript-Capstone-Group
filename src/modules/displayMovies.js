@@ -8,7 +8,7 @@ const showMovies = (data) => {
         <div>
             <h3>${m.name}</h3>
             <i class="fa-solid fa-heart"></i>
-        </div>
+        </div> 
       </div> 
       `;
       movieEl.insertAdjacentHTML('afterbegin',html)
