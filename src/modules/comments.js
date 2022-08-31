@@ -1,5 +1,6 @@
 import popupHtml from "./popupHTML.js";
 import getMovieComment from "./getComments.js";
+import closePopup from "./closePopup.js";
 const commentCounter = (data) => (typeof (data) === 'object' ? data.length : 'invalid');
 
 const commentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8yDe1k19rnGIEx3fLHSF/comments';
@@ -66,16 +67,6 @@ const showComments = (movieId) => {
     }
   });
 };
-
-const closePopup = () => {
-  document.querySelector('.close').addEventListener('click', () => {
-    popup.style.display = 'none';
-    popup.innerHTML = '';
-    document.body.style.overflow = 'visible';
-  });
-};
-
-
 
 const commentPopup = async (movieId) => {
   await getData(movieId).then((data) => {
