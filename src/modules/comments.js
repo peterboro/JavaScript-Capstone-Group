@@ -1,11 +1,8 @@
 import popupHtml from "./popupHTML.js";
+import getMovieComment from "./getComments.js";
 const commentCounter = (data) => (typeof (data) === 'object' ? data.length : 'invalid');
 
 const commentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8yDe1k19rnGIEx3fLHSF/comments';
-const getMovieComment = async (movieId) => {
-  const response = await fetch(`${commentApi}?item_id=${movieId}`);
-  return response.json();
-};
 
 const popup = document.querySelector('.comment-popup');
 
