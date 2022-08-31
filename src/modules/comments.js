@@ -1,3 +1,4 @@
+import popupHtml from "./popupHTML.js";
 const commentCounter = (data) => (typeof (data) === 'object' ? data.length : 'invalid');
 
 const commentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8yDe1k19rnGIEx3fLHSF/comments';
@@ -81,44 +82,7 @@ const closePopup = () => {
 
 const commentPopup = async (movieId) => {
   await getData(movieId).then((data) => {
-    popup.innerHTML = `
-    <div class= "popup">
-        <button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
-        <div class = "container">
-            <div class = "display">
-                <div class = "description">
-                    <img src='${data.image}' alt="image">
-                    <h3>'${data.name}'</h3>
-                </div>
-                <div class="display-detail">
-                    <h3> Details </h3>
-                    <ul>
-                      <li> '${data.summary}' </li>
-                      <li><strong>Genres:</strong> ${data.genres}</li>
-                      <li><strong>Ratings:</strong> ${data.rating}</li>
-                    </ul>
-                </div>
-            </div>
-            <div class = "comment-container">
-                <div class = "comment-display">
-                    <h3 class = "counter"> Comments (<span class = "total-comments">0</span>)</h3>
-                    <ul class = "comments">
-                    </ul>
-                </div>
-                <div class = "comment">
-                    <div class = "add-comment">
-                      <h3>Add Comment</h3>
-                    </div>
-                    <form class="form">
-                      <input type="text" name="name" id="name" placeholder="Your name" required>
-                      <textarea name="description" id="description" cols="30" rows="10"
-                          placeholder="Your Comment" required></textarea>
-                      <button id=${movieId} type="submit" class="submit-btn">Comment</button>
-                    </form>
-                </div>
-            </div>
-      </div>
-  </div>`;
+    popup.innerHTML = popupHtml(data,movieId); //Imported the popup html
   showComments(movieId);
 
   const form = popup.querySelector('.form');
@@ -143,7 +107,7 @@ const commentPopup = async (movieId) => {
 };
 
 document.addEventListener('click', async (e) => {
-  if (e.target.matches('.comment')) {
+  if (e.target.matches('.comments')) {
     commentPopup(e.target.id);
     const comment = await getMovieComment(e.target.id);
     commentCounter(comment);
