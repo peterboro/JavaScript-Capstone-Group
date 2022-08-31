@@ -5,8 +5,7 @@ const commentCounter = (data) => (typeof (data) === 'object' ? data.length : 'in
 
 const commentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8yDe1k19rnGIEx3fLHSF/comments';
 
-const popup = document.querySelector('.comment-popup');
-
+const popup = document.querySelector('.comment-popup'); 
 const getTotalComments = async (movieId) => {
   const result = await getMovieComment(movieId)
   .then((comment) => (!comment.error ? comment.length : 0))
@@ -103,4 +102,4 @@ document.addEventListener('click', async (e) => {
   }
 });
 
-export {commentPopup, commentCounter};
+export {commentPopup, commentCounter, popup};
