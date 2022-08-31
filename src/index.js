@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 import {commentPopup} from './modules/comments.js';
 
 import getMovies from './modules/getMovies.js';
@@ -9,8 +9,10 @@ getMovies(MAIN_URL);
 
 document.addEventListener('click', (e) => {
   if(e.target.matches('.comment')) {
-    commentPopup(e.target.id);
+    console.log(e.target)
+    commentPopup(e.target.id); 
   }
+
 })
 
 

@@ -62,7 +62,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem; 
 }
 
 .movie-info h3 {
@@ -72,9 +72,17 @@ header {
 }
 
 .movie .movie-header i {
-  margin-top: -1.2rem;
   color: rgba(197, 0, 0, 0.411);
   cursor: pointer;
+}
+
+.movie .liked { 
+  margin-top: -1.2rem;
+}
+
+.liked span { 
+  color: rgb(179, 179, 179);
+  font-size: 80%;
 }
 
 .btns {
@@ -105,36 +113,6 @@ footer {
 
 footer span {
   font-weight: 700;
-}
-
-@media (max-width: 620px) {
-  .movies {
-    width: 100%;
-    border-radius: 0.2px 4px 5px;
-    background-color: var(--secondary-color);
-    padding: 0;
-    margin: 0;
-  }
-
-  .movie-info {
-    margin: 1rem;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    letter-spacing: 0.5px;
-    position: relative;
-  } */
-
-  .movie {
-    padding: 0;
-    margin: 0;
-    background-color: var(--primary-color);
-    width: 90%;
-    height: 10%;
-    border-radius: 7px;
-    margin-bottom: 2rem;
-  }
 }
 
 /* Comment popup */
@@ -185,13 +163,6 @@ footer span {
   width: 50%;
 }
 
-.comment {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 10px;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -226,3 +197,34 @@ li {
 }
 
 /* End of comment popup */
+
+
+@media (max-width: 620px) {
+  .movies {
+    width: 100%;
+    border-radius: 0.2px 4px 5px;
+    background-color: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+  }
+
+  .movie-info {
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    position: relative;
+  } */
+
+  .movie {
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+    width: 90%;
+    height: 10%;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+  }
+}
