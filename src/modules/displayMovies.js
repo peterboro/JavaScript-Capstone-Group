@@ -6,11 +6,7 @@ const showMovies = (data) => {
         <img src='${m.image.medium}' alt="image">
         <div class="movie-header">
             <h3>${m.name}</h3>
-            <div class="liked">
-               <span>5</span>
-               <i class="fa-solid fa-heart"></i>
-            </div>
-            
+            <i class="fa-solid fa-heart"></i>
         </div>
         <div class="btns"> 
             <button id="${m.id}" class="comment">Comment</button>
