@@ -9,7 +9,7 @@ const showMovies = (data) => {
             <i class="fa-solid fa-heart"></i>
         </div>
         <div class="btns"> 
-            <button class="comment">Comment</button>
+            <button id="${m.id}" class="comment">Comment</button>
             <button class="reservaton">Reservation</button>
         </div>       
       </div> 
