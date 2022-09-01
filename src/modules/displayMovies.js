@@ -7,8 +7,8 @@ const showMovies = (data) => {
         <div class="movie-header">
             <h3>${m.name}</h3>
             <div class="liked">
-                <i class="fa-solid fa-heart"></i>
-                <span>${1} likes</span>
+                <i class="fa-solid fa-heart" id=${m.id}></i>
+                <span id=${m.id}>${1} likes</span>
             </div>
         </div>
         <div class="btns"> 

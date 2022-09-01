@@ -38,7 +38,7 @@ header {
 
 .movie img {
   width: 100%;
-  height: 80%;
+  height: 75%;
   border-radius: 7px 7px 0 0;
 }
 
@@ -50,8 +50,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-.movie {
-  margin: 1rem;
+.movie { 
   background-color: var(--primary-color);
   width: 85%;
   height: 90%;
@@ -64,12 +63,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
+  margin-bottom: .5rem;
+  position: relative;
 }
 
 .movie-info h3 {
   margin-top: 0;
   color: #fff;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .movie .movie-header i {
@@ -78,8 +79,15 @@ header {
 }
 
 .liked {
-  margin-top: -.9rem;
+  margin-top: -.1rem;
   color: #fff;
+  display: flex;
+  flex-direction: column;  
+}
+
+.liked span {
+  font-size: 60%; 
+  font-weight: 600;
 }
 
 .btns {
@@ -87,7 +95,7 @@ header {
   justify-content: space-between;
   width: 100%;
   z-index: 10;
-  padding: 0 0.5rem;
+  padding: 0  0.5rem; 
 }
 
 .movie button {

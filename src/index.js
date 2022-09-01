@@ -1,6 +1,6 @@
 // import './style.css';
 import { showCommentPopup } from './modules/comments.js';
-
+import addLike from './addLike.js';
 import getMovies from './modules/getMovies.js';
 
 const MAIN_URL = 'https://api.tvmaze.com/shows';
@@ -12,6 +12,6 @@ document.addEventListener('click', (e) => {
     showCommentPopup(e.target.id);
   }
   if (e.target.matches('.fa-heart')) {
-    console.log('you liked me');
+    addLike(e)
   }
 });
