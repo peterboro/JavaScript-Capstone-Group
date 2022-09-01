@@ -73,9 +73,13 @@ header {
 }
 
 .movie .movie-header i {
-  margin-top: -1.2rem;
   color: rgba(197, 0, 0, 0.411);
   cursor: pointer;
+}
+
+.liked {
+  margin-top: -.9rem;
+  color: #fff;
 }
 
 .btns {
