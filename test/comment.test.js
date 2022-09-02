@@ -1,4 +1,4 @@
-import { getCounter } from '../comments.js';
+import { getCounter } from '../src/modules/comments.js';
 
 describe('Testing comment counter', () => {
   const commentArr = [

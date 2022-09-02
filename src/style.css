@@ -19,7 +19,7 @@ header {
   background-color: var(--secondary-color);
   display: flex;
   gap: 200px;
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
 }
