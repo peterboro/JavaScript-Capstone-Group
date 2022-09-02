@@ -36,11 +36,13 @@ header {
   margin-left: 1rem;
 }
 
-.nbr-m {
-  padding: .5rem;
+.nbr-m { 
+  width: 100px; 
+  height: 100px;
+  padding: 1px 30px;
   background-color: #373b69;
   transform: skew(40deg);
-  color: rgb(172, 184, 3);
+  color: rgb(0, 47, 255);
 }
 
 .movies {
