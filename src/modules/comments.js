@@ -2,7 +2,7 @@ const getCounter = (data) => (typeof (data) === 'object' ? data.length : 'invali
 
 const commentsApiKey = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/XAL29eekekrMc3kTORyS/comments';
 const getComment = async (movieId) => {
-  const response = await fetch(`${commentsApiKey}?item_id=${movieId}`); 
+  const response = await fetch(`${commentsApiKey}?item_id=${movieId}`);
   return response.json();
 };
 
@@ -47,8 +47,6 @@ const addComment = async (params) => {
 
 const getMovieData = async (movieId) => {
   const response = await get(`${movieApi}/${movieId}`);
-
-  console.log("my rsponse ", response)
   return response;
 };
 
