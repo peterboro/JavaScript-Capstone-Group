@@ -29,7 +29,8 @@ const showMovies = (data) => {
       </div> 
       `;
     
-    movieEl.insertAdjacentHTML('afterbegin', html);}); 
+    movieEl.insertAdjacentHTML('afterbegin', html);
+  }); 
     document.addEventListener('click', async(e) => {   
         addLike(e); 
         const response = await getLike();
