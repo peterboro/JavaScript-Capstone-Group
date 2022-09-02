@@ -47,6 +47,8 @@ const addComment = async (params) => {
 
 const getMovieData = async (movieId) => {
   const response = await get(`${movieApi}/${movieId}`);
+
+  console.log("my rsponse ", response)
   return response;
 };
 
