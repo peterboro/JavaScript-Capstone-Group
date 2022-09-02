@@ -16,7 +16,7 @@ A popup window with more data about an item that you can use to comment on it or
 
 ## Website Mockup
 
-![Screenshot 2022-09-02 JavaScript Capstone](https://user-images.githubusercontent.com/27219880/188182857-e55337c5-c333-4b67-b7db-415d4cbec354.png)
+![Screenshot Capstone  JavaScript](https://user-images.githubusercontent.com/27219880/188197098-7565e58c-c8ba-4360-b73f-33c0c732e681.png)
 
 
 ## Getting Started
@@ -38,11 +38,11 @@ Have NodeJS installed and follow the next steps
 
 👤 **Benjamin Kisenge**
 
-- GitHub: [@githubhandle](https://github.com/iambenkis)
+- GitHub: [@iambenkis](https://github.com/iambenkis)
 
 👤 **Peter Njuguna**
 
-- GitHub: [@githubhandle](https://github.com/peterboro)
+- GitHub: [@peterboro](https://github.com/peterboro)
 
 ## 🤝 Contributing
 
