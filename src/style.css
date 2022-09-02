@@ -16,11 +16,30 @@ body {
 }
 
 header {
-  padding: 1rem;
-  display: flex;
-
-  /* justify-content: flex-end; */
   background-color: var(--secondary-color);
+  display: flex;
+  gap: 200px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+header h1 {
+  color: rgb(14, 13, 13);
+  margin-left: 100px;
+}
+
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 30px;
 }
 
 .main {
