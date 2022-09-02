@@ -19,7 +19,7 @@ const showMovies = (data) => {
             <h3>${m.name}${i+1}</h3>
             <div class="liked">
                 <i class="fa-solid fa-heart" id=${i+1}></i>
-                <span class="span" id='s${i+1}'> ${response[i]?response.filter(r => r.item_id === `item${i+1}`)[0]?.likes:'0'} likes</span>
+                <span class="span" id='s${i+1}'> ${response[i]?response.filter(r => r.item_id === `item${i+1}`)[0]?.likes:'0'}likes</span>
             </div>
         </div>
         <div class="btns"> 
