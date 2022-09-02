@@ -1,9 +1,7 @@
-
 # MOVIE WEBAPP USING AN API
 
 > The JavaScript capstone project is about building your own web application based on an external API. We selected an API(TvMaze) that provides data about movies that we like and then built the webapp around it. The webapp will has 2 user interfaces: A home page showing a list of items that you can "like."
 A popup window with more data about an item that you can use to comment on it or reserve it for a period of time.
-
 
 ## Live Demo (if available)
 
@@ -98,6 +96,5 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
-
+## 📝 Licensessssssssssssssssssssssssssssssssssssssssssssssssssss
 This project is [MIT](./MIT.md) licensed.
