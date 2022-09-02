@@ -1,4 +1,4 @@
-import movies from "../itemCounter.js";
+import movies from "../mockup/itemCounter.js";
 
 const array1 = ['b', 'e', 'n', 'j', 'a', 'm', 'i', 'n'];
 const array2 = ['p', 'e', 't', 'e', 'r'];
