@@ -1,5 +1,5 @@
-import addLike from "../addLike.js";
-import getLikes from "../getLike.js";
+import addLike from "./addLike.js";
+import getLikes from "./getLike.js";
 
 const getLike = async () => {
   const res = await getLikes(); 

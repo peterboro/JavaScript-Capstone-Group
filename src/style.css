@@ -29,11 +29,25 @@ header {
   justify-content: center;
 }
 
+.movie-nbr {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.nbr-m {
+  padding: .5rem;
+  background-color: #373b69;
+  transform: skew(40deg);
+  color: rgb(172, 184, 3);
+}
+
 .movies {
   border-radius: 0.2px 4px 5px;
   background-color: var(--secondary-color);
   position: relative;
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .movie img {
