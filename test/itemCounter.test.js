@@ -1,8 +1,8 @@
-import movies from "../mockup/itemCounter.js";
+import movies from '../mockup/itemCounter.js';
 
 const array1 = ['b', 'e', 'n', 'j', 'a', 'm', 'i', 'n'];
 const array2 = ['p', 'e', 't', 'e', 'r'];
-const array3 = array1.concat(array2)
+const array3 = array1.concat(array2);
 describe('Number of movies test', () => {
   test('Number of movies', () => {
     expect(movies(array1)).toBe(8);

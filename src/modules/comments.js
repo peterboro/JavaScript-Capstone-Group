@@ -77,6 +77,7 @@ const closePopup = () => {
 };
 
 const showCommentPopup = async (movieId) => {
+  updateCounter(movieId);
   await getMovieData(movieId).then((data) => {
     commentPopup.innerHTML = `<div class="popup">
     <button id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
