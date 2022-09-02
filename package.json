@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/peterboro/JavaScript-Capstone-Group#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
     "@hint/utils-dom": "^2.2.0",
     "babel-eslint": "^10.1.0",
     "babel-install": "2.1.0",
