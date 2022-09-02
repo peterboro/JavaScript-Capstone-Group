@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import { showCommentPopup } from './modules/comments.js';
 import getMovies from './modules/getMovies.js';
 
