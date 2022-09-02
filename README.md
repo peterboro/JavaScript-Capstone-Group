@@ -16,6 +16,7 @@ A popup window with more data about an item that you can use to comment on it or
 
 ## Website Mockup
 
+![Screenshot 2022-09-02 JavaScript Capstone](https://user-images.githubusercontent.com/27219880/188182857-e55337c5-c333-4b67-b7db-415d4cbec354.png)
 
 
 ## Getting Started
