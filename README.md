@@ -63,7 +63,7 @@ npm run build
 ```
 - To launch the app locally: Run 
 ```bash 
-    npm start
+npm start
 ```
 ## Authors
 
@@ -75,7 +75,7 @@ npm run build
 
 👤 **Peter Njuguna**
 
-- GitHub: [@githubhandle](https://github.com/peterboro) 
+* GitHub: [@githubhandle](https://github.com/peterboro) 
 * Twitter: [@bpeter boro](https://twitter.com/Ptahbn)
 * LinkedIn: [peter](https://www.linkedin.com/in/)
 
