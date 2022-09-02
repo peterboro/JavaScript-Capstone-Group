@@ -5,11 +5,6 @@
 A popup window with more data about an item that you can use to comment on it or reserve it for a period of time.
 
 
-## Built With
-
-- HTML, CSS, JavaScript
-- Webpack, Jest, Gitflow
-
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
@@ -18,31 +13,71 @@ A popup window with more data about an item that you can use to comment on it or
 
 ![Screenshot Capstone  JavaScript](https://user-images.githubusercontent.com/27219880/188197098-7565e58c-c8ba-4360-b73f-33c0c732e681.png)
 
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+
+### Prerequisites
+
+- Webpack 
+- Jest
+- Gitflow
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+
+To get the project locally , run 
+```bash 
+git clone https://github.com/peterboro/JavaScript-Capstone-Group.git
+```
+
 ### Install
+
 Have NodeJS installed and follow the next steps
-### Usage
-- `npm i` for installing dev dependecies
-- `npm run build` or `npm start` to see the project
-### Run tests
-- `npm test`
+
+- Install webpack with npm :
+
+```bash
+npm install --save-dev webpack
+```
+
+- Install Jest with npm :
+
+```bash
+npm install --save-dev jest
+```
+
 ### Deployment
-- `npm run deploy`
+- Tp deploy : Run
+```bash
+npm run deploy
+```
 
+### Usage
 
-
+- To update changes : Run 
+```bash 
+npm run build
+```
+- To launch the app locally: Run 
+```bash 
+    npm start
+```
 ## Authors
 
 👤 **Benjamin Kisenge**
-
-- GitHub: [@iambenkis](https://github.com/iambenkis)
+ 
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
 👤 **Peter Njuguna**
 
-- GitHub: [@peterboro](https://github.com/peterboro)
+- GitHub: [@githubhandle](https://github.com/peterboro) 
+* Twitter: [@bpeter boro](https://twitter.com/Ptahbn)
+* LinkedIn: [peter](https://www.linkedin.com/in/)
 
 ## 🤝 Contributing
 
@@ -62,4 +97,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
