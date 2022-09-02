@@ -1,6 +1,4 @@
 const likeKey = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/dImTscUKayMKYeImrygj/likes/'
-import getLikes from "./getLike.js";
-
 
 const post = (url, id) => fetch(url, {
     method: 'POST',
