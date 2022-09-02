@@ -5,7 +5,7 @@ A popup window with more data about an item that you can use to comment on it or
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://peterboro.github.io/JavaScript-Capstone-Group/dist/index.html)
 
 ## Video Presentation
 [Video Presentation](https://drive.google.com/file/d/1yn0rZc0MxNsY-SoR4WWvCRbwZ2jj5DmE/view?usp=sharing)
