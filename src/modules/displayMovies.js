@@ -10,8 +10,8 @@ const response = await getLike();
 console.log(response)
 const showMovies = (data) => {
   data.forEach((m,i) => {
-    const movieEl = document.querySelector('.movie-info');
-    // console.log(i)
+    const movieEl = document.querySelector('.movie-info'); 
+    const movieNbr = document.querySelector('.nbr-m');
     const html = `
       <div class="movie">
         <img src='${m.image.medium}' alt="image">
@@ -28,9 +28,10 @@ const showMovies = (data) => {
         </div>       
       </div> 
       `;
-    
+      movieNbr.innerHTML = i + 1
     movieEl.insertAdjacentHTML('afterbegin', html);
   }); 
+    
     document.addEventListener('click', async(e) => {   
         addLike(e); 
         const response = await getLike();
