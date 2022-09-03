@@ -96,5 +96,5 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 Licensessssssssssssssssssssssssssssssssssssssssssssssssssss
+## 📝 License
 This project is [MIT](./MIT.md) licensed.
