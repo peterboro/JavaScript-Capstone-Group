@@ -1,54 +1,84 @@
-# Project Name
+# MOVIE WEBAPP USING AN API
 
-> Description the project.
-
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+> The JavaScript capstone project is about building your own web application based on an external API. We selected an API(TvMaze) that provides data about movies that we like and then built the webapp around it. The webapp will has 2 user interfaces: A home page showing a list of items that you can "like."
+A popup window with more data about an item that you can use to comment on it or reserve it for a period of time.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://peterboro.github.io/JavaScript-Capstone-Group/dist/index.html)
 
+## Video Presentation
+[Video Presentation](https://drive.google.com/drive/folders/1TR2Awg5fChUURIEHDvLATK5biejoGLEc?usp=sharing)
 
-## Getting Started
+## Website Mockup
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+![Screenshot Capstone  JavaScript](https://user-images.githubusercontent.com/27219880/188197098-7565e58c-c8ba-4360-b73f-33c0c732e681.png)
 
+## Built With
 
-To get a local copy up and running follow these simple example steps.
+- HTML
+- CSS
+- JavaScript
 
 ### Prerequisites
 
-### Setup
+- Webpack 
+- Jest
+- Gitflow
+
+## Getting Started
+
+
+To get the project locally , run 
+```bash 
+git clone https://github.com/peterboro/JavaScript-Capstone-Group.git
+```
 
 ### Install
 
-### Usage
+Have NodeJS installed and follow the next steps
 
-### Run tests
+- Install webpack with npm :
+
+```bash
+npm install --save-dev webpack
+```
+
+- Install Jest with npm :
+
+```bash
+npm install --save-dev jest
+```
 
 ### Deployment
+- Tp deploy : Run
+```bash
+npm run deploy
+```
 
+### Usage
 
-
+- To update changes : Run 
+```bash 
+npm run build
+```
+- To launch the app locally: Run 
+```bash 
+npm start
+```
 ## Authors
 
-👤 **Author1**
+👤 **Benjamin Kisenge**
+ 
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Peter Njuguna**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+* GitHub: [@peterboro](https://github.com/peterboro) 
+* Twitter: [@bpeter boro](https://twitter.com/Ptahbn)
+* LinkedIn: [peter njuguna](https://www.linkedin.com/in/peter-n-3bb940122/)
 
 ## 🤝 Contributing
 
@@ -66,6 +96,5 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
+## 📝 Licensessssssssssssssssssssssssssssssssssssssssssssssssssss
+This project is [MIT](./MIT.md) licensed.
