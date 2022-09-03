@@ -8,7 +8,7 @@ A popup window with more data about an item that you can use to comment on it or
 [Live Demo Link](https://peterboro.github.io/JavaScript-Capstone-Group/dist/index.html)
 
 ## Video Presentation
-[Video Presentation](https://drive.google.com/file/d/1yn0rZc0MxNsY-SoR4WWvCRbwZ2jj5DmE/view?usp=sharing)
+[Video Presentation](https://drive.google.com/drive/folders/1TR2Awg5fChUURIEHDvLATK5biejoGLEc?usp=sharing)
 
 ## Website Mockup
 
@@ -76,9 +76,9 @@ npm start
 
 👤 **Peter Njuguna**
 
-* GitHub: [@githubhandle](https://github.com/peterboro) 
+* GitHub: [@peterboro](https://github.com/peterboro) 
 * Twitter: [@bpeter boro](https://twitter.com/Ptahbn)
-* LinkedIn: [peter](https://www.linkedin.com/in/)
+* LinkedIn: [peter njuguna](https://www.linkedin.com/in/peter-n-3bb940122/)
 
 ## 🤝 Contributing
 
